@@ -6,7 +6,7 @@
 
 **ML-задача:** разработать модель машинного обучения для задачи регрессии с целью предсказания качества вина на основе его характеристик.
 
-**Датасет:** [Wine Quality](https://archive.ics.uci.edu/dataset/186/wine+quality) - 6497 записей о красном и белом вине с их физикохимическими характеристиками. Изначально предоставляется в виде двух файлов - [winequality-red.csv](datasets\winequality-red.csv) и [winequality-white.csv](datasets\winequality-white.csv). В ноутбуке [dataset.ipynb](dataset.ipynb) происходит их объединение в файл [winequality.csv](datasets\winequality.csv). Также к каждой записи добавляется колонка, указывающая, является вино красным или белым.
+**Датасет:** [Wine Quality](https://archive.ics.uci.edu/dataset/186/wine+quality) - 6497 записей о красном и белом вине с их физикохимическими характеристиками. Изначально предоставляется в виде двух файлов - [winequality-red.csv](datasets/winequality-red.csv) и [winequality-white.csv](datasets/winequality-white.csv). В ноутбуке [dataset.ipynb](dataset.ipynb) происходит их объединение в файл [winequality.csv](datasets/winequality.csv). Также к каждой записи добавляется колонка, указывающая, является вино красным или белым.
 
 ### 2. Выбор метрики для измерения качества регрессии
 
@@ -32,7 +32,7 @@
 
 #### Матрица корреляции характеристик:
 
-![Матрица корреляции характеристик](plots\corr_matrix.png)
+![Матрица корреляции характеристик](plots/corr_matrix.png)
 
 Наблюдается высокая корреляция между *free sulfur dioxide* и *total sulfur dioxide*, между *residual sugar* и *density*, обратная корреляция между *density* и *alcohol*. Возможно, стоит убрать один признак из пары из рассмотрения или преобразовать пару в один признак.
 
@@ -40,8 +40,8 @@
 
 #### Распределение характеристик:
 
-![Распределение характеристик](plots\feature_distribution.png)
+![Распределение характеристик](plots/feature_distribution.png)
 
 #### Распределение целевой переменной - качества вина:
 
-![Распределение качества](plots\quality_distribution.png)
+![Распределение качества](plots/quality_distribution.png)
