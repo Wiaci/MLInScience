@@ -9,13 +9,13 @@
 
 ### Интерпретация построенной модели
 
-**Важность признаков:**
+**Важность признаков:**  
 ![feature_importances](plots/feature_importances.png)
 
-**Permutation importance:**
+**Permutation importance:**  
 ![permutation_importance](plots/permutation_importance.png)
 
-**SHAP:**
+**SHAP:**  
 ![shap](plots/shap.png)
 
 **Выводы:** Признаки alcohol, volatile accidity - самый важный, а признак white - неважный, его можно исключить
